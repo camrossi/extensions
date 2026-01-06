@@ -116,6 +116,7 @@ TARGETS += qemu-guest-agent
 TARGETS += qlogic-firmware
 TARGETS += realtek-firmware
 TARGETS += revpi-firmware
+TARGETS += rknn
 TARGETS += spin
 TARGETS += stargz-snapshotter
 TARGETS += tailscale

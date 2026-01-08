@@ -35,7 +35,9 @@ spec:
     - mdadm
     - mei
     - mellanox-mstflint
+    - mellanox-mstflint
     - metal-agent
+    - multipath-tools
     - multipath-tools
     - nebula
     - netbird
@@ -53,6 +55,7 @@ spec:
     - nvidia-open-gpu-kernel-modules-production
     - nvme-cli
     - soci-snapshotter
+    - soci-snapshotter
     - panfrost
     - qemu-guest-agent
     - qlogic-firmware
@@ -63,6 +66,7 @@ spec:
     - tailscale
     - tenstorrent
     - thunderbolt
+    - trident-iscsi-tools
     - trident-iscsi-tools
     - uinput
     - usb-modem-drivers
@@ -94,11 +98,11 @@ spec:
       - name: EXTENSIONS_IMAGE_REF
         defaultValue: $(REGISTRY_AND_USERNAME)/extensions:$(TAG)
       - name: PKGS
-        defaultValue: v1.13.0-alpha.0-24-g972f44d
+        defaultValue: v1.12.0-25-g90ff196
       - name: PKGS_PREFIX
         defaultValue: ghcr.io/siderolabs
       - name: TOOLS
-        defaultValue: v1.13.0-alpha.0-6-g896f8b9
+        defaultValue: v1.12.0-3-g5df8bae
       - name: TOOLS_PREFIX
         defaultValue: ghcr.io/siderolabs
   useBldrPkgTagResolver: true
